@@ -1,4 +1,8 @@
-# Native Sound Mixer
+# Native Sound Mixer (Forked)
+
+Forked from [here](https://github.com/m1dugh/native-sound-mixer) to include ID's of each process.
+
+
 ## Introduction 
 ### Native cross-platform sound mixer
 
