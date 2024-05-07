@@ -10,7 +10,6 @@ node_modules
 
 #build files
 build/
-dist/
 
 #test files
 coverage/
