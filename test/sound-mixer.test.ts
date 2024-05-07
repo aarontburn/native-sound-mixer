@@ -1,6 +1,13 @@
 import "../dist/@types/sound-mixer.d.ts"
 import SoundMixer, { DeviceType, Device } from "../dist/sound-mixer.js"
 
+
+// SoundMixer.getDefaultDevice(DeviceType.RENDER).sessions.forEach(session => {
+// 	console.log(session.name)
+// 	console.log(session.id)
+// });
+
+
 describe("sound mixer", () => {
 
 	it("should get all devices", () => {

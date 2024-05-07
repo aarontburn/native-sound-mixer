@@ -213,6 +213,12 @@ export declare class AudioSession {
      * @readonly
      */
 	public readonly state: AudioSessionState
+
+    /**
+     * The ID of the {@link AudioSession}.
+     * @readonly
+     */
+    public readonly id: string
 }
 
 /**
