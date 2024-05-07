@@ -6,3 +6,5 @@ Run this command to install the repository.
 ```
 npm install 'https://gitpkg.now.sh/aarontburn/native-sound-mixer/dist?master'
 ```
+
+Forked for the [Volume Controller Module](https://github.com/aarontburn/modules-volume_controller).
