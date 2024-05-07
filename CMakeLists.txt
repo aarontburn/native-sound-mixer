@@ -67,8 +67,8 @@ if(LINUX)
         TARGET ${PROJECT_NAME} POST_BUILD
         COMMAND "${CMAKE_COMMAND}" -E copy
             "$<TARGET_FILE:${PROJECT_NAME}>"
-            "${PROJECT_SOURCE_DIR}/dist/addons/${PROJECT_NAME}-sound-mixer.node"
-        COMMENT "Copying ${PROJECT_NAME}-sound-mixer.node -> ${PROJECT_SOURCE_DIR}/dist/addons"
+            "${PROJECT_SOURCE_DIR}/dist/dist/addons/${PROJECT_NAME}-sound-mixer.node"
+        COMMENT "Copying ${PROJECT_NAME}-sound-mixer.node -> ${PROJECT_SOURCE_DIR}/dist/dist/addons"
     )
 
     if(GNU AND CMAKE_JS_NODELIB_DEF AND CMAKE_JS_NODELIB_TARGET)
@@ -101,8 +101,8 @@ if(WIN32)
         TARGET ${PROJECT_NAME} POST_BUILD
         COMMAND "${CMAKE_COMMAND}" -E copy
             "$<TARGET_FILE:${PROJECT_NAME}>"
-            "${PROJECT_SOURCE_DIR}/dist/addons/${PROJECT_NAME}-sound-mixer.node"
-        COMMENT "Copying ${PROJECT_NAME}-sound-mixer.node -> ${PROJECT_SOURCE_DIR}/dist/addons"
+            "${PROJECT_SOURCE_DIR}/dist/dist/addons/${PROJECT_NAME}-sound-mixer.node"
+        COMMENT "Copying ${PROJECT_NAME}-sound-mixer.node -> ${PROJECT_SOURCE_DIR}/dist/dist/addons"
     )
 
     if(MSVC AND CMAKE_JS_NODELIB_DEF AND CMAKE_JS_NODELIB_TARGET)
